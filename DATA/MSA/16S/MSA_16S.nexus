@@ -1,0 +1,241 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=10 NCHAR=1772;
+ FORMAT DATATYPE=DNA INTERLEAVE MISSING=-;
+[Name: H_marmor         Len:  1772  Check:    0]
+[Name: H_subpun         Len:  1772  Check:    0]
+[Name: M_baroni         Len:  1772  Check:    0]
+[Name: H_suspec         Len:  1772  Check:    0]
+[Name: L_agilis         Len:  1772  Check:    0]
+[Name: Z_vivipa         Len:  1772  Check:    0]
+[Name: A_talpoi         Len:  1772  Check:    0]
+[Name: A_davidi         Len:  1772  Check:    0]
+[Name: E_cirrig         Len:  1772  Check:    0]
+[Name: M_vittat         Len:  1772  Check:    0]
+
+MATRIX
+H_marmor             taccctaactaaagctctac ataca----------attaa atagcaaagccac------- ---------caaaattaccc tcaacaaaacattttatctg
+H_subpun             -------gctaaatatctag ccccatcttcctcgtattt- ---atacccccta------- ---------tttacctcttc taaccaaaacattttttcag
+M_baroni             -------gcttaaaatctag cc------tttcaatatctt atgaaacctccca------- ---------ctaacataacc ttaataaaacatttttctat
+H_suspec             -------gcaaaacttctag cc--caat---caactataa ctagcatac----------- ---------ccatatttgac aaaacaaaacatttgacaag
+L_agilis             ---gcccaaaaacaagccaa tc--aaacatccaaacatgc ctaataaac----------- ---------ct--------- -aaccaaaacatttaccccg
+Z_vivipa             -gagcccaaaaatctagcaa cc--aaacccacaaaacccc ataacaaac----------- ---------cc--------- -aaccaaaacatttatttag
+A_talpoi             -------gtaaagattatag cc--taattattaaacacct aaaaataaaacta------- ---------cc--------- -----aaaacatttaaaaac
+A_davidi             -------gttagaaatatag cttataattagcaagtatgc ataactagtatta------- ---------cc--------c aaacaaaaccatttttttat
+E_cirrig             -------------------- ------gttgcaaaataagc ctaattaatattt------- ---------tttcacctcac cacttaaaccattttaacac
+M_vittat             -------gctgtatagctag ct--tactcatcaaagtcaa caaaacaacattaaaaatct ctacacaactgcaacaacac caatcaaaacattttcccgc
+
+H_marmor             tttagtacaggcgaaagaaa --aataaccaagaagcccaa ta---agtaccgcaagggaa caatgaaatactaatta--- aa--cattcaagtaaaataa
+H_subpun             tccagtaaaggcgattaaaa --aa-ctcctcggagcaata aacgtagtaccgcaagggaa agatgaaataaaaatgaaat aa--tttttaagcacaaaaa
+M_baroni             tatagtagatgagatcaaaa --aatttctttagcgcttca gatcaagtaccgcaagggaa tgatgaaataataatgaa-- aa--tactcaagcacctaac
+H_suspec             attagtaaatgcgattaaac attaaaattgaagcaatagc aaacgagtaccgcaagggaa aaatgaaataatactgaaat ----accacacgcgaaaaaa
+L_agilis             gccagtaaatgagattaaac cccac-catttggc-----c tcaaaagtaccgcaagggaa aaatgaaagaataatgaaaa ------cttaagcaaaaaat
+Z_vivipa             gccagtaaatgtgatcgaac accacaaatttagc-----c ttacaagtaccgcaagggaa caatgaaagaatgatgaaaa ----acataaagcacaacac
+A_talpoi             tttagtattggtgaaagaaa ---aacaaaatagagcgata taaaaagtactgcaaaggaa atatgaaaaagaattgaaat aaa-taattaaacaaataaa
+A_davidi             cttagtataggtgatagaaa ---cgattattaacgcaata gataaagtactgtaaaggaa aaatgaaataaaaatgaaat -aa-ttttaaaacacaaata
+E_cirrig             gttagtacgggcgacagaaa ----accttttagcgcaata gatgaagtactgcaaaggaa aaatgaaatagaaatgataa aac-cacaagaacaaaataa
+M_vittat             ccaagtatgtgcgacagaaa aggcacttcatcaagctaca gaaaaagtaccgcaagggaa cgctgaaagagaaatgaaac aaattattaaagcactacaa
+
+H_marmor             agcaaagattaaatcttgta ccttttgcatcatggtctag c-aagtctaattaagctaaa cgagcttat-gcttaaaccc ccgaaacttagtgagctact
+H_subpun             agtagagcttaactctcgta ccttttgcatcatgatttaa c-tagtctaaccaagcaaaa -ggacttttagtttgacttc ccgaaccttggcgagctacc
+M_baroni             agcagagccacattctcgta ccttttgcatcatggtctag c-cagtctaattaagcaaaa cgaatttaaagtttaacccc ccgaaactaagtgagctact
+H_suspec             agcaaagattaacacttgta ccttttgcatcatgatttag c-aagcatacccagacaaag cgttactttagcctgccccc ccgaaatcaggtgagctact
+L_agilis             agcaaagataaatccctgta cctcctgcatcatggtctag caaaacatcgtcagacaaag agaacctttagcctgatccc ccgaaaccaaacgagctatt
+Z_vivipa             agtaaagaccaacccctgta cctcttgcattatggtttag caaaaccttttcaaacaaag ag-accttcagcctgctttc ccgaaaccaagcgagctatt
+A_talpoi             agaaaagattacctcttcta ccttttgcataatggtctag c-aagtaaaacctagcaaaa agaa-taaa-gttagccccc ccgaaactaaacgagctact
+A_davidi             agcatagattaattctttta ccttttgcatcatggtctat c-aagtccaacctggcaaaa agaacttaa-gtcagacatc ccgaaactagacgagctact
+E_cirrig             agcaggaaccaagccccgta ccttttgcataatggtctag c-aagtcttattta-caaaa agaatttta-gctacac-cc ccgaaacctgacgagctacc
+M_vittat             agcagagattaaccctcgta ccttttgcatcatgatttag c-cacctcctccgagcaaga cgtatttta-gttcgaaacc ccgaaactaagtgagctacc
+
+H_marmor             tcagaacag-------ccgc -agggccaaccctcgtctgt agcaaaagaccgggaaaatt ctcaagtagaggcgacaaac ctatcgaactaagatatagc
+H_subpun             ttaggacag-------cttt ttgagctaatccgtctctgt tgcaaaagagtggaacgatc ttaaggtagaggtgataaac caaacgagcccagtgatagc
+M_baroni             tcgaaacaa-------cttt aagagctaacccatctctgt tgcaatagagtgggaagatt tccaagtagaggcgacaaac ctatcgcacctagagatagc
+H_suspec             cttaaatag----ttta--t tagaacgaccccgtctctgt agcaaaagagtggcacaagt taagagtagaggtgaaaagc ctaacgaacctgatgatagc
+L_agilis             ttttggcag----caaa--- tagagcacacccgtccctgt agcaaaagggtgggaagacc aaaaaatagaggcgaaaagc ctatcgagcttggtgatagc
+Z_vivipa             tttgggcag----cataacc aagagcaaacccatccctgt agcaatagggtggaaagacc tgaaaatagaggcaaaaaac ctaccgagcctggtgatagc
+A_talpoi             taagagtaa-----c-atat aagtgttaacccgtctttgt ggcaaaaaagtgggatgact tttaagtaggggtgaaaagc ctaacgagcttagtgatagc
+A_davidi             ccaaagcag-----caataa tagagctaacccttctctgt ggcaaaagagtgggatgact ttcgagtagaggtgataagc ctatcgagcctagtaatagc
+E_cirrig             tttaggcag-----caat-- tagagcgaacccgtccctgt agcaaaagggtgggaagacc taaaggtagaggcgaaaaac ctaacgagccaggatatagc
+M_vittat             ccgagacagtctattaat-- taggaccaacccgtctctgt ggcaaaagagtgggaagatc tctgggtaggggtgacagac ctaccgaacttagttatagc
+
+H_marmor             tggtttctag----ggaaaa ggatttaagttcaacctaaa gc--------------ttcg tatgccatctatcatactc- --ctaagctttagagccatt
+H_subpun             tggttgctta----tgaaaa ggattttagtcctgcttaaa ga--------------tttt tt--gc-cccacaaagccc- ----aatctttaaagttact
+M_baroni             tggttactca----agaaaa gaatgttagttcaactttaa gt--------------tttt cttagt-tacactaaacccc cattaaacttaaaagctatt
+H_suspec             tggttgcctactttttaaac gaattttagttcgactttaa gcctactactacattaacta gtacccccta---------- ctttaagcttaaaagataat
+L_agilis             tggctactca-----taaaa gaatttaagttcaactttag gttt-ttataagactactta caaacttttc---------- cttctcaacctaaagaaatt
+Z_vivipa             tggttactca-----taaaa gaattt-agttcaactttag gtcc-cacttaaattacatc taaa--attc---------- tattttaacctagagaaaat
+A_talpoi             tggttgctca----agaaat gaacttaaattcaactttaa at-------------atttt tttaacattaaaaagacacg aataatattttaaagctaat
+A_davidi             tggttgctca----agaaat gaattttagttcagcttaga at-------------acaca gattacatcaataaataa-- aataatattctaaagttaat
+E_cirrig             tggttacttg----ag-aat gaattttagttcaactaaga gc-------------aaata gccaccttaagaacaa---- actaatgctcttaatttaat
+M_vittat             tggttgccta----agaaat gaatagaagttcagcctcat attccttatatcacaaatta actataaccacatgaataga agaaatatatgagagttagt
+
+H_marmor             caaataaggaacagcttatt tgaaaaaggacacaaccttg acaatagggtaattcttcat -aaaaataaacca------- --gtaggcctaaaagcagcc
+H_subpun             caaataaggtacagcctatt tgaaagaggatacagcctca actcttgggttattttttta -agggttaatgccaaa---- --gtgggcctaaaagcagcc
+M_baroni             caaataaggcacagcttatt tgaaacaggatacaacctat actacagggtaac------- --acaataaaacaaaatgat ttgtgggcctaaaagcagcc
+H_suspec             caataggggtacagccctat tgattaaggattcaacccgt att---agagagc------- -caaataacaaccacaaaac cagtgggccttaaagcagcc
+L_agilis             caataggggtacagccctat tgaaccggaatacagcccga accgagagacttc------- -cttat-----tt-cccttt tagtgggcctcaaagcagc-
+Z_vivipa             caatgggggtacagccccat tgaaccggaatacagcccga actgagagaaatc------- -taaat-----ttactactc cagtaggcttcaaagcagc-
+A_talpoi             taataaaggtacagctttat taataaaggaaacaacctaa ata-atgaataaagattata -ctaaataaagaaattagat ctgttggcctaaaagcagcc
+A_davidi             ttatagaggtacagctctat aaataaaggatacaacctac ctatgtgaataaa------c -ttagacaaagatcttaatt aagtaggcctaaaagcagcc
+E_cirrig             taactggggaacagcccagt taaaaagggaaacaacccat aaaaataaataaagattata tttataagaagaataaagcc tagtgggcctaaaagcagcc
+M_vittat             caaaggaggtacagctcctt tgaagcaggacacaacctta ccaggaggttaaagattata ttaaacaagataaaccgctt tagtgggcctaaaagcagcc
+
+H_marmor             acctaaaac---agcgttaa agct--------tcctttac tttttatttaatccctctac tta-acagaaacccttaa-c caatacctagtacttctata
+H_subpun             atcttaaacgaaagcgtcaa agct--------tactcatt ttcccacataattcccctac ctt-ccccaaacccttca-t ttttaaaaagcaactctata
+M_baroni             atcttaaataaaagcgttaa agct--------ta-acatt ttctttcttaaatttcctac atcatttaaaacccttta-a caatattgagtaattccata
+H_suspec             aacattaaataaagcgtcac agcc--------tacatttt aaataatatcaaaatataat cca------acctcctaatt acctactaggctattctata
+L_agilis             --caccaaaaactgcgttac agc----------acaaaca aattaatttcaacaacccac aca------tcctcccga-t acagtctgagttattctata
+Z_vivipa             --caccaaaaaccgcgttac agc----------aaaaatt aaaaaatcctaacaacttac aaa------atctccaga-t acaatgtgagtcattctata
+A_talpoi             atcaattatgaaaacgtcat agct-cgacttaataaactc ttcttataccaataaaaaat cac------aactcatta-t acgtattgagccaatctat-
+A_davidi             accaa--ataaaagcgttaa agct-tagtttttttaa-gc ttaaaatgtcattaattcaa tct------aattcacat-t aacaattgagccgatctat-
+E_cirrig             accaa----gaaagcgtcaa agct-tgactccaatatatc taatgatttaaacaataaat ctt------aagttattt-t aataatcaagtcaatctag-
+M_vittat             atctagatagaaagcgttaa agctctagcggaacataaat ctattattccaataacacat cca------aaaccccta-a ccatattaggctattccatg
+
+H_marmor             cacgtatagaacttattatg ctagaactagtaacaagaag aagacc--ttctcctgtatg taagcttaacccagaataaa caaattactggacattatcg
+H_subpun             cccatatagaaaattttatg ttaaaactagtaataagaag agaacc--ttctcctcaatg taagtgtatatcagcaagga ttctccactgattcttaacg
+M_baroni             aaaatatggaaaatataatg ctagaactagtaacaagaaa tagttt--ttctccaaaatg taagtctaagccacatctga caaactaatggcaattaacg
+H_suspec             taattatagaagaactaatg ctaaaactagtaacaagatt tca------tctcttttacg cacctgtaactcagctctga atgtcaactgaaaattaaca
+L_agilis             ccaaaatagaaacaccaatg ctaaaattagtaataagaaa taatta--tttctctttgca ccctcttgaatcagaataga aaaactactgatacttaaca
+Z_vivipa             ttaatatagaaacactaatg ctaaaattagtaataagaaa tta------ttctcttagca ctcgcttaaatcagaataga aaaactactgacaattaaca
+A_talpoi             -c-taatagatgagcctatg ctagaactagtaaca-agaa ta------tatctctatgta catgtgtatatcagaacgaa aaattcactgataattaacg
+A_davidi             -catcatagatgtgtttatg ttagaatgagtaacgtgaaa ta------cttctctaagtg taagtataaatcaaaacgaa cccatcattgatatttaacg
+E_cirrig             ---ttttagaaaagttatta ctagaataagtaacgagaac ca------cctctctaaata tttgtgtacgtcgaaacgaa atattcctcgacacttagcg
+M_vittat             ccaacatggaagaaacgctg ctaaaatgagtaataagaaa gaacccctttctcctaagcc cacgtgtacgctagatcgga ctcaccactagcatttatcg
+
+H_marmor             cctt---------------- -----------agaaccact agctttaacacaacaagaaa a-accc--------cctaaa caaagcgttaatcttacaca
+H_subpun             tccc---------------- -----------taataatag agtaacaacttgtcaagaaa a-gctt--------acttct cctgacgttaacctaacaca
+M_baroni             aaat---------------- -----------tgaacccca tttagcaaccaaccaagaaa a-ccct--------acaaat aaaaacgttaaccttacacc
+H_suspec             ga------------------ -----------------cca aaataggcataacttagaag atacaagacttaagtaccaa aatactgttaacccaacaca
+L_agilis             aaaa---------------- ------------ccaacccc ttcttataccagct-aaaat gt------------tgacct agtattgtcaccccaacaca
+Z_vivipa             aatt---------------- ------------aaacccta atatttacctagccaaaaat gt------------tatttt taccttgttaccccaacaca
+A_talpoi             ttaa---------------- ------aatactaaa----- ----------aaccaagaaa tatata--------acttaa aa---cgttaaaccaacaca
+A_davidi             -aac---------------- ------catattgaaggtaa catctattttaagcaagaaa t-tttg--------attcaa aaaatcgttaacccaacaca
+E_cirrig             aacc---------------- ------tatattaat----- ---------ttttcaagaac t-gcca--------attaat aataccgttaacccaacaca
+M_vittat             aacccaaccaaagagggaaa tgtgatcatactaaa----- ----------aaccaagaag tactca--------tataac caaatcgttaaccccacacc
+
+H_marmor             aga--acataccaggaaaaa ttaaaagaagaggaaggaac tcggcaaa--attagtcccg cctgtttaccaaaaacatcg cctcttg-----cccactta
+H_subpun             aga--acattcaaggaaaga ttaaaagagaaagaaggaac tcggcaaa-ttttagccccg cctgtttaccaaaaacatcg cctcctg---atttca--ta
+M_baroni             aga--acattaatggaaaga ttaaaagaaaaagaaggaac tcggcaaa-ttttaaccccg cctgtttaccaaaaacatcg cctcttg---aaacaaacca
+H_suspec             ggcgcgatcta-aagaaaga ttaaaagttaaaaaaggaac tcggcaa--atctagtccca actgtttaccaaaaacatag cctttagctatccaag--ta
+L_agilis             ggtgtgcaaaa-aagaaagg caaaaagccgtaaaaggaac tcggcaat-atattgtccca actgtttaccaaaaacatag cctttagctttacaag--ta
+Z_vivipa             ggtgtgcaaaa-aagaaagg tgaaaaaccgtaaaaggaac tcggcaaa-aactagtccca actgtttaccaaaaacatag cctttagcttaacaag--ta
+A_talpoi             gga--gtaccc-aagaaaga ttaaaaatttaaaaaggaac tcggcaac-caaagacttcg cctgtttaccaaaaacatca cctcttgcaaataaag--ta
+A_davidi             gga--acacta-aagaaaga ttaaaagtcaaagaaggaac tcggcaaa-tacgaacttcg cctgtttaccaaaaacatcg cctcttgtttctccta--ta
+E_cirrig             ggc--atattt-aagaaaga cttcaagttaagaaaggaac tcggcaaatctaaggcttcg cctgtttaccaaaaacatag cctcttgaccaattaa--ta
+M_vittat             ggagggcaact-aggaaaga ctaaaagaaaaggaaggaac tcggcaaa-cacaagcctcg cctgtttaccaaaaacatcg cctcctgcaaaaacaacgta
+
+H_marmor             taagaggtccagcctgccca ttgata--a-atttaacggc cgcggtattctgaccgtgcg aaggtagcacaatcacttgt tctctaaataaggactagta
+H_subpun             taggaggtccagcctgccca gtgaca--ttgttcaacggc cgcggtatcctaaccgtgcg aaggtagcgtaatcacttgt tctttaaatgaggactagta
+M_baroni             taagaggtccagcctgccca gtgata--acatttaacggc cgcggtaccctaaccgtgcg aaggtagcataatcacttgt tctttaattgaggacttgta
+H_suspec             ttaaaggtaccgcctgccca gtgatta-tccttaaacggc cgcggtattataaccgtgca aaggtagcgtaatcacttgt ctcttaaatagtgaccagta
+L_agilis             ttaaaggtttcgcctgccca gtgact--c-tttaaacggc cgcggtatcctaaccgtgca aaggtagcataatcacttgt cccctaaatcgggactagaa
+Z_vivipa             ttaaaggtctcgcctgccca gtgact--cttttaaacggc cgcggtatcctaaccgtgca aaggtagcataatcacttgt ctcttaaatagagactagaa
+A_talpoi             taagaggccctgcctgccca gtgacac-tagtttaacggc cgcggtatcatgaccgtgca aaggtagcgtaatcacctgt cttttaattaaagacctgta
+A_davidi             taagaggtcctgcctgccca gtgacatattgttaaacggc cgcggtatcatgaccgtgca aaggtagcgtaatcacttgt cttctaaataaagaccggta
+E_cirrig             taagaggtactgcctgccca gtgacat-ctgttcaacggc cgcggtattatgaccgtgca aaggtagcgtaatcacttgt cttttaaataaagaccagta
+M_vittat             taggaggtcttgcctgccca gtgac---tagttaaacggc cgcggtattttgaccgtgcg aaggtagcgcaatcacttgt cttttaaatgaagacctgta
+
+H_marmor             tgaacggcattacgaggact ttactgtctccc-ccctcta attagtgaaactgatctccc cgtgaaaaagcagggattta cttataagacgagaagaccc
+H_subpun             tgaacggcttcacgaaggct atactgtctcct-ctcccta atcaatgaaactaatctcct cgtgaagaagcgagaattaa tctataagacgagaagaccc
+M_baroni             tcaatggcatcacgagggtt tcactgtctcct-ttttcta atcagtgaaactgatctctc cgtgaagaagcggagatttt tttataagacgagaagaccc
+H_suspec             tgaacggctaaatgaggact aaactgtctctt-ttaacta atcagtgaaactgatctccc agtacaaaagctgggataaa catataagacgagaagaccc
+L_agilis             tgaatggctaaatgaggact aaactgtctcttacggactg gccaatgaaattgatttccc agtacaaaagctgggatata ctcataagacgagaagaccc
+Z_vivipa             tgaatggctaaatgaggact aatctgtctcttacggacca accaatgaaattaatctttc agtacaaaagctgaaataaa aacataagacgagaagaccc
+A_talpoi             tgaatggcaagacgagagtc taactgtctctt-taaatta atcagtgaaactaatcttcc cgtgcagaagcgggaatatg atcataagacgagaagaccc
+A_davidi             tgaatggcaaaacgagagtt caactgtctcct-ttaacca atcagtgaaattgatctttc cgtgcagaagcggaaattta aatataagacgagaagaccc
+E_cirrig             tgaatggcgaaacgagagcc aaactgtctccc-ttagcta gtcagtgaaattgatttttc cgtgcagaagcggaaatact aatacaagacgagaagaccc
+M_vittat             tgaatggtggaacgagggct taactgtctccc-ttttcaa gtcaatgaaattgatctgcc cgtgcagaagcggacatgtc tatacaagacgagaagaccc
+
+H_marmor             catggagctttaaac-ctaa gctaattgttaacatt---- ------tctccac------- ------aaaacacagcaaac tatagacttttggtttttgg
+H_subpun             tatggagctttaaacaactg aaatacttgcttcttt---- ------tacccacttcccga aaataaaatataatctagca cctttatttctagttttagg
+M_baroni             catggagctttaaac-ccaa ttacactcctattttt---- ------tattaacctcttag actatggatat--------- -ttgtatatttggttttagg
+H_suspec             tgtggagctttaaac-taag tactaaccaaaatata---- -------------------- -------------------g tatgt------agtttttag
+L_agilis             tgtggagcttcaaaa-ccaa --------accaccca---- -------------------- -------------------g catgctccttggatttttag
+Z_vivipa             tgtggagcttcaaac-caaa --------aacaccct---- -------------------- -------------------g catgctcctcaggtttttag
+A_talpoi             tatggagctt-------taa -atttttcttaatatagttt aactattattctatacgaaa a-------aatttatacaat attttaataaaaattttagg
+A_davidi             tatggagcttaaaat-ataa -accatttataaaata---- -----------tataccaaa aggctaataattaacataaa ttctggttaaaatttttagg
+E_cirrig             tatggagcttcaagc-aaaa -actaaccctgcaaac---- -----------taaactata a--------------gaaac ccttagttaaacgctttagg
+M_vittat             tttggagcttaagat-gtaa gaccaactacgttaag---- -----------aatagccta aaccaattaaactaagtagc aactggtccctatcttc-gg
+
+H_marmor             ttggggcaaccgcggagaaa aactaaccctccgtaatgaa cgagtct--cctctctaagc tctgaataaccactc-taac catcaaaaacttgatattc-
+H_subpun             ttggggtgaccacggagcaa aaaataacctccacgctgaa agaaactactttttcttagc aaaaagctacagctt-catg catcaacaaattgacttcta
+M_baroni             ttggggtgaccacggagcat aacttagcctccatgatgaa cgggatt-ttaccccttatc caagaactacacctc-taag aactagtattctaacataaa
+H_suspec             ttggggcgactatggaaaca aacaaaacttcca-----ac tgcgagccttacactcctac caagaccaacctgtc----- -------aaag--tacatgc
+L_agilis             ttggggcgacttcggaatat aaaaaaacttcca-----aa aa--------acaattttat taaggttaacacacc----- -------aaaattaacccat
+Z_vivipa             ttggggcgacttcggagcac aataaaacctcc------aa aa--------tctttatctt caagattaacaaacc----- -------aaaa--actttat
+A_talpoi             ttggggcgaccacggaataa aagaaaacttccgagatg-- --a------------catta taagaaggacacttcataaa atagaaaaaatctaacat-a
+A_davidi             ttggggcgaccacggaatca aataaaacttccgagatgaa tta------------taatt caagggtgacaaccc-taaa aaataaaacatttaacataa
+E_cirrig             ttggggcgaccacggggaaa aatttaacccccgagataaa tta---------------gc taagaaaaacacatc-aaag caacaaaaaccttgacat-a
+M_vittat             ttggggcgaccacgggagaa aattaagctcccacgtggac tggggcc-accccctaaaac taagagagacatctc-taag tcacagaatttctgaccaaa
+
+H_marmor             ttgaccca---tcaaaacgc --------atgaacaatgaa ccaagttaccctggggataa cagcgcaatccattattaga gttcatatcgacttttgggt
+H_subpun             ttgaccca---ataa----t --------ttgatcaacgaa ccaagttaccctagggataa cagcgcaatctatttcaaga gctcatatcaacaaataggt
+M_baroni             atgatccg---ataa----- --------tcgatcaacgaa ccaagttaccctggggataa cagcgcaatccacttcaaga gctcctatcgacaagtgggt
+H_suspec             ctgatcca---gtaaata-- --------ctgataaacgaa ccaagttaccccagggataa cagcgctatcttctttaaga gaccatatcgacaagaaggc
+L_agilis             tagaccca---gcaactaac --tgttgtctgattaatgaa ccaagttaccccagggataa cagcgcaatctccttttaga gtccatatcgacaagggggt
+Z_vivipa             tagaccca---gcaatgtat aacattgtctgaccactgaa ccaagttaccccagggataa cagcgccatcccctcctaga gtccatatcaacaagggggt
+A_talpoi             ttgaccca---ata-----a --------ttgatcaacgaa ccaagttaccctagggataa cagcgcaatcttctccaaaa gttcttatcgacgagaaggt
+A_davidi             ttgatcca---atat----t --------ttgatcaacgga ccaagttaccctagggataa cagcgcaatcctttccaaga gttcttatcgacgaatgggt
+E_cirrig             ttgaccca---ata-----t --------ttgaccaacgaa ccaagttaccctagggataa cagcgcaatcttctcataga gtccttatcgacgagaaggt
+M_vittat             aagatccggccatcg----g --------ccgatcaacgga ccaagttaccctagggataa cagcgcaatccccttccaga gtccatatcgacaagggggt
+
+H_marmor             ttacgacctcgatgttggat caggatatccaagtggtgca gccgctactaaaggttcgtt tgttcaacgattaa--aatc ctacgtgatctgagttcaga
+H_subpun             ttacgacctcgatgttggat cagggtatcctagtggtgca gccgctactaacggttcgtt tgttcaacgattaa--aacc ctacgtgatctgagttcaga
+M_baroni             ttacgacctcgatgttggat cagggtatcctagtggtgca gcaattactaaaggttcgtt tgttcaacgattaa--aacc ctacgtgatctgagttcaga
+H_suspec             ttacgacctcgatgttggat caggacccccaaatggtgca accgctattaatggttcgtt tgttcaacgattaa--agtc ctacgtgatctgagttcaga
+L_agilis             ttacgacctcgatgttggat caggacaccccaatagtgca gccgccattaaaggttcgtt tgttcaacgattaa-tagtc ctacgtgatctgagttcaga
+Z_vivipa             ttacgacctcgatgttggat caggacaccccaatggtgca gccgccattaaaggttcgtt tgttcaacgattaattagtc ctacgtgatctgagttcaga
+A_talpoi             ttacgacctcgatgttggat caggacacccaaatggtgca gcagctattaaaggttcgtt tgttcaacgattaa--agtc ctacgtgatctgagttcaga
+A_davidi             ttacgacctcgatgttggat caggacatcctaatggtgca gctgctattaagggttcgtt tgttcaacgattaa--agtc ccacgtgatctgagttcaga
+E_cirrig             ttacgacctcgatgttggat cagggcccccaaatggtgca gcagctattaaaggttcgtt tgttcaacgattaa--agcc ctacgtgatctgagttcaga
+M_vittat             ttacgacctcgatgttggat caggacatcctaatggtgca gccgctattaagggttcgtt tgttcaacgattaa--agtc ctacgtgatctgagttcaga
+
+H_marmor             ccggagtaatccaggtcggt ttctatctat-aaagagatt gttctagtacgaaaggaccg gatgatcgtggccaatattc atac-aagccacagccc---
+H_subpun             ccggagtaatccaggtcagt ttctatctat-aaagagctt cttctagtacgaaaggaccg aaaaagcacggcccatgcct ttgt-aagccgtaaccttct
+M_baroni             ccggagtaatccaggtcggt ttctatctat-aaagagtta tttccagtacgaaaggaccg aaacaacatggcctctgctt aaac-aagccatcacacttt
+H_suspec             ccggagaaatccaggtcggt ttctatctat-acttcattt tctttagtacgaaaggatca agaaaataggaccaatctta aaaa-gaagtcc---tcaca
+L_agilis             ccggagaaatccaggtcggt ttctatctat-gcagcacta tctttagtacgaaaggacca agatagtaagacctcttcca aaag-aacgtcttaattaaa
+Z_vivipa             ccggagaaatccaggtcggt ttctatctat-gcggcacta tcttcagtacgaaaggacaa aaatagtgggaccaatacca aaaa-aaagtccaaattaaa
+A_talpoi             ccggagcaatccaggtcagt ttctatctat-gtttaactt cccctagtacgaaagggccg ggaaagttgggccaatgaaa tatt---aagcccacaaaca
+A_davidi             ccggagcaatccaggtcagt ttctatctat-atacaattt cttctagtacgaaaggaccg aagagatagagccaatgttc aaat---acgctctactact
+E_cirrig             ccggagaaatccaggtcagt ttctatctgt-aaaaagact tttctagtacgaaaggaccg aaaaaacaaggcctatgggt aaacccaagccttcccaata
+M_vittat             ccggagtaatccaggtcagt ttctatctgtaatgtcactt ttcctagtacgaaaggaccg gaaaaagggggcccatattt taaa-tacgccccaccccta
+
+H_marmor             --------atattatgccat aaacttaatttttatctact aactagtttt---------- agaaaataacc-
+H_subpun             -------aatttatgtctaa aaacttaattcttaacaatc tactactattc------tca agacaagagacc
+M_baroni             attaatgaattt-------- -aacttaattaatttttatc taaaactattc------cct aaacaagggcgt
+H_suspec             ataactgaataa-------- -aaataaagttcacaacata a-----ttacaac----cca agacatgggtta
+L_agilis             gtcactgatcac-------- -tgctaaagtattaaacata cacctttccccgc----cct aaacaagggctt
+Z_vivipa             actactgat-at-------- -tactaaagtagtaaatata c-caccgtataat----tca aaatcagaattt
+A_talpoi             actattgaaaac-------- -aactaaaatag-----act gtaaatactacagc---cta atataaaggctt
+A_davidi             actattgaaaac-------- -aactaaaatagtaaaaagt taaaatatta---c---cct aaataagggcta
+E_cirrig             acctctgaacac-------- -aaataagaggttatagggg ataaat----taag---tct atgtacgactt-
+M_vittat             tttaatgaaatc-------- -aactaaattaa-ataaagg gaggacacaaccccttacca agataaggtt--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+END;

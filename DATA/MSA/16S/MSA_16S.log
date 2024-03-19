@@ -1,0 +1,84 @@
+
+P A U P *
+Portable version 4.0b10 for Unix
+Mon Oct  9 16:07:42 2023
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  Please report any crashes,
+        apparent calculation errors, or other anomalous results.
+        There are no restrictions on publication of results obtained
+        with this version, but you should check the WWW site
+        frequently for bug announcements and/or updated versions.  
+        See the README file on the distribution media for details.
+      ----------------------------------------------------------------
+
+paup> begin paup;
+
+
+paup> exec MSA_16S.fasta.nexus;
+
+
+Processing of file "~/1MB438-Project/DATA/MSA_16S.fasta.nexus" begins...
+
+Data read in DNA format
+
+Data matrix has 10 taxa, 1772 characters
+Valid character-state symbols: ACGT
+Missing data identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Processing of file "~/1MB438-Project/DATA/MSA_16S.fasta.nexus" completed.
+
+paup> set criterion=parsimony;
+
+
+paup> hsearch;
+
+
+Heuristic search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 1772 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        690 characters are constant
+        289 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 793
+  Starting tree(s) obtained via stepwise addition
+  Addition sequence: simple (reference taxon = H marmor)
+  Number of trees held at each step during stepwise addition = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+  Steepest descent option not in effect
+  Initial 'MaxTrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  Topological constraints not enforced
+  Trees are unrooted
+
+Heuristic search completed
+   Total number of rearrangements tried = 274
+   Score of best tree(s) found = 2718
+   Number of trees retained = 1
+   Time used = <1 sec (CPU time = 0.00 sec)
+
+paup> savetrees file=MSA_16S.tre format=phylip brlens;
+
+
+1 tree saved to file "~/1MB438-Project/DATA/MSA_16S.tre" in PHYLIP format
+
+paup> end;
+
+
+paup> quit;
+

@@ -1,0 +1,22 @@
+<itsabeastystatewerein version='2.0' sample='10000000'>
+<statenode id='Tree.t:MSA_cytB'>(((4:0.5077217200578469,3:0.5077217200578469)16:0.08447660736593832,7:0.5921983274237852)10:0.15741154568936955,((((6:0.24064379608007494,9:0.24064379608007494)12:0.20564447105299458,5:0.4462882671330695)11:0.23968851117937923,((2:0.39962094016969035,1:0.39962094016969035)14:0.167070407701102,0:0.5666913478707923)15:0.1192854304416564)17:0.012391547911549838,8:0.6983683262239986)13:0.051241546889156164)18:0.0</statenode>
+<statenode id='birthRate.t:MSA_cytB'>birthRate.t:MSA_cytB[1 1] (-Infinity,Infinity): 1.9763627372169217 </statenode>
+<statenode id='gammaShape.s:MSA_cytB'>gammaShape.s:MSA_cytB[1 1] (0.001,1000.0): 0.2656048540559509 </statenode>
+<statenode id='TIM2ufrates.s:MSA_cytB'>TIM2ufrates.s:MSA_cytB[4 1] (0.0,Infinity): 0.49492578750236793 0.8466988672266231 0.18915981847358765 3.785129920821461 </statenode>
+<statenode id='TIM2uffreqParameter.s:MSA_cytB'>TIM2uffreqParameter.s:MSA_cytB[4 1] (0.0,1.0): 0.3486112271465834 0.26513054347371534 0.1065243958827237 0.2797338334969776 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"YuleBirthRateScaler.t:MSA_cytB","p":0.24141602754329547,"accept":112720,"reject":285417,"acceptFC":111726,"rejectFC":285187,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelTreeScaler.t:MSA_cytB","p":0.6512475800146341,"accept":100714,"reject":297092,"acceptFC":100583,"rejectFC":295941,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelTreeRootScaler.t:MSA_cytB","p":0.7104155569245953,"accept":55236,"reject":342482,"acceptFC":55166,"rejectFC":341342,"rejectIv":130245,"rejectOp":130245},
+{"id":"YuleModelUniformOperator.t:MSA_cytB","p":"NaN","accept":1248907,"reject":2734255,"acceptFC":1245708,"rejectFC":2725563,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelSubtreeSlide.t:MSA_cytB","p":0.24953772281775985,"accept":373729,"reject":1619919,"acceptFC":373642,"rejectFC":1613820,"rejectIv":290554,"rejectOp":290554},
+{"id":"YuleModelNarrow.t:MSA_cytB","p":"NaN","accept":355352,"reject":1637586,"acceptFC":354905,"rejectFC":1631885,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelWide.t:MSA_cytB","p":"NaN","accept":6422,"reject":391867,"acceptFC":6418,"rejectFC":390734,"rejectIv":211569,"rejectOp":211569},
+{"id":"YuleModelWilsonBalding.t:MSA_cytB","p":"NaN","accept":5371,"reject":393281,"acceptFC":5366,"rejectFC":392074,"rejectIv":127102,"rejectOp":127102},
+{"id":"gammaShapeScaler.s:MSA_cytB","p":0.6620144125047436,"accept":2355,"reject":10792,"acceptFC":2348,"rejectFC":10759,"rejectIv":0,"rejectOp":0},
+{"id":"TIM2ufRateDeltaExchanger.s:MSA_cytB","p":0.36863302914678436,"accept":3452,"reject":9881,"acceptFC":3443,"rejectFC":9865,"rejectIv":1042,"rejectOp":1042},
+{"id":"TIM2ufFrequenciesExchanger.s:MSA_cytB","p":0.03659173690992448,"accept":3172,"reject":9999,"acceptFC":3152,"rejectFC":9984,"rejectIv":0,"rejectOp":0}
+]}
+-->

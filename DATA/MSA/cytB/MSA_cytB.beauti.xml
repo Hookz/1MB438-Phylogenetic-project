@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+    <data
+id="MSA_cytB"
+spec="Alignment"
+name="alignment">
+        <sequence id="seq_A_davidi" spec="Sequence" taxon="A_davidi" totalcount="4" value="atgacccacccaacccgaaaaactcatcctctactaaaaattattaatagctcatttattgacctgcccaccccgtcaaacttaacatcatgatgaaattatggctcactcctaggtatatgtctgaccgtgcaggttgttacagggttattcctcgctatacattatacagcagatacctcttcagcattttcatcagtggcccacatttgccgagatgtaaactatggctggcttgtccgcaacacacatgctaatggggcctccttatttttcatttgcctttacttacacatcgggcgcggcttatattatggttcatacttatataaagaaacatgaaatattggggtagttctcctattcttagtaatagcaacggcttttgttggttatgtccttccatgaggacaaatatcattttgaggcgcaacagttattactaatctactctcagctatcccatatttaggggaagaccttgtaaaatgagtttgaggtggattttctgttgataaagcaacactcacccgattctttgcatttcattttctcctgcctttcttaatcataggaataagtattctccaccttttattcgtacatgaaacagggtcaagcaatccaacaggaattatttctaatgtagacaaagttccattccacccttatttcctatataaagatgcccttggatttataattatactaatatttttagtgctgatttcactgctcctcccaaatatacttggagacccggaaaacttcaccccagctaaccccctcatcacccctccccatattcaaccagagtggtattttctttttgcctatgcaattctccgatcaatcccaaacaaactcggaggcgtcctagccttaggggcctccattttcattttaatcctaataccccttcttcatacatcaaaacaacggggtttaatattccgaccaatcacacaaataatattttgggcccttgtatcaaacaccctaatcctaacatgaattggaggacaaccagttgacccaccattcattgaaatcggacagattgcatccatcctgtatttctccctgtttaccatcatctttccccttacagggcgaattgaaaacctgcttttaaaatggt??????????????"/>
+        <sequence id="seq_A_talpoi" spec="Sequence" taxon="A_talpoi" totalcount="4" value="atggcccacattatacgaaaaacacatccaataattaaaattattaataactcatttattgatttaccaacgccctcaaacatctcctattgatgaaacttcggctcactactaggcctatgcctgattacacaaattttaacaggcttatttttagctatacattatacagcagatacatcatcagcattttcatctgtcgcacatatctgtcgtgatgttaattacggctgattaatacgaaatattcacgcaaacggggcctcattcttctttatctgcatcttccttcacatcggtcgtggcttatactacgggtcatacatatataaggagacatgaaacatcggggtcatcctactttttctagttatggcaacagcttttgtaggatatgttctcccatgaggacaaatatcattctgaggtgcaacagtcattactaatttactctccgcaattccatatataggagacacccttgtacaatgaatctgagggggattctcagttgataaagccacactaacccgattctttgcctttcacttcctatttccatttctaattgccggcataagcattattcatcttctatttcttcatgaaacaggatcaaataacccaaccggaatagcctcaaatttagacaaaatttcattccacccatatttctcctataaagacgctcttggcttcttacttatatttattttacttatattcttatctctattttcacctaatctcctaggagacccagaaaactttataccagcaaatcctttaattacacccccacatattcaaccagaatgatacttcctatttgcctatgccatcttacgatctattccaaacaaactagggggtgtcatcgcccttctattatcaatcataattctaatattaatcccaatacttcacacatctaaacagcgcagtataatatttcgccctttaacacaaattatattttgaacattagtagccaatactattattttaacatgaattggcggacaaccagtagaaccaccatttattgaaatcggacaagtttcctccattatatacttctcattatttattgtcattattcctgccattggaatttttgaaaataaattaataaaatgat??????????????"/>
+        <sequence id="seq_E_cirrig" spec="Sequence" taxon="E_cirrig" totalcount="4" value="atggcccacattatacgcaaaacacacccgctatttaaaattattaacaactcttttattgacctccctgccccatctaacctatcttacttgtgaaactttggatcccttttaggagtatgtctaattacacaaatcttaacagggttatttcttgcaatacactacactgcagataccacctccgcattctcctctgtagctcatatttgccgagacgtaaattatggttgactagtacgtaatattcataccaacggagcctctattttctttatttgtatttatcttcatattggccgaggcctgtattatggttcatatatatttaaagagacctgaaacattggagttattcttctgtttctagtaatagcaacagcatttgtaggatatgttctcccatgaggacaaatatcattctgaggagcaactgttattacaaatcttttatccgcaattccatatttaggagacacacttgtgcaatgaatttgagggggcttttcagtagataaagcaacactcactcgattctttgccttccatttcattttaccatttataattgcaggtgctagcatcatccaccttcttttccttcatgaaacaggatcaaataacccaacaggactcaattctaaccccgacaaaattccattccacccatattattcctttaaagatcttttaggatttataataatgctattaacattaatttttatttcgctcttaacacctaaccttttaggagatccagaaaattttactcctgcaaacccactaattacccctcctcatatccagccagagtgatattttttatttgcctatgcaatcctccgctctattcctaataaactaggcggagtaatagcattattagcttcaatcctaatcttaatgattattccagtccttcacacctctaaacaccgaagcctattatttcgaccattaacacaaattatgttttgattacttattgctaatacattaattcttacctgaattggggggcaaccagtagaaccaccatttattgaaattggacaaatgttttcagtattatattttatattatttttaaccatctttcctacaactagcataattgaaaataaattaataaaatgataa????????????"/>
+        <sequence id="seq_H_marmor" spec="Sequence" taxon="H_marmor" totalcount="4" value="atggcccacacaatccgcaaatcccatccaattatcaagattattaataactcatttattgacctcccgtccccatcaaacatctccctgttatggaacctcggctcactgctaggactttgcttaattgttcaaatcgctacaggcctgttcttagccatacactacaccgcagacatctcctcagccttctcatctgtcgcccacatttgccgcgatgttaactacggatgacttctacgtaatgtccacgccaacggggcctccttcttttttatctgcatctacctccacattgcccgcggcatttacttcggctcctttcttttcaaggagacctgaaacattggagttatcctcctcttacttgtaatagccacagcctttgttggctatgtacttccatgaggacaaatatcattctgaggggcaacagtaatcactaaccttctatcagccgcaccttacattggtctagacctcgtcctttgaatctggggcggattctcagtagataacgctaccctcacccggttcttcacattccactttatcctcccatttgccattgccggagtctccctccttcaccttctctttttgcaccaatcaggttcttcaaacccaacaggactttcatctgaaccagacaaagtcccattccacatttacttctcgttcaaagacattctttgattcatcatcctactaactgccctaaccctagtctccaccataattcctaacttcctgtcagatcctgacaatttcacgccagctaacccgttagtcacccctccacacattaaacctgagtggtacttcctatttgcctacgccatccttcgttctatcccaaataaactaggcggggtcctggccctcctatcctccatcttagtccttatacttatccctattatccacacctcaaaacaacgaaaccttaccttccggcctatctcaaaagttctcttttgatcatttgtcgctaacactttcgtcctcacctgaattgggggccaaccagtagaagacccattcattacaatcggacaaatcgcctccgtcttattctttctcatcctcatcattttaatcccaactctcagcaatttagagaacaaaattctctgaaaaggtcgcacacactaa"/>
+        <sequence id="seq_H_subpun" spec="Sequence" taxon="H_subpun" totalcount="4" value="atggcccctatcatacgaaaaacccatcctgcccttaaaatcattaataattcttttattgacctgccatccccttccaacatctcaatgtgatgaaatttcggctctcttttaggcctctgcctcatcacccaaattatcacaggcctctttctcgctatacactatactgccgatacctcaatagctttttcctccattgcccatatttgccgtgacgtaaacaatgggtgacttctacgcaacctccacgctaacgggggctcattcttcttcatctgcatctattttcacatcggccgcggaatatactacggctcctttttattcaaagagacctgaaatatcggagtaattttactttttctagtaatagcaactgcattcgtgggctatgttcttccctgaggccaaatgtccttctgaggtgccaccgtaatcaccaaccttctctctgccgcaccctacatcggaactgacctcgtccaatggatctgaggcggcttctccgttgacaacgctaccctaacccgtttctttactttccacttcatcttaccttttgctattgcaggcgcctccatccttcaccttctcttccttcaccaaaccggctcctctaaccccacaggcctaaactctaaccccgataaagttcccttccatacctacttctcatataaagacgccttgggatttattatccttctgtttctcctcacatccctttccacattcgctcccaacctcctaggagatcccgacaattttacacccgctaaccccctagttactccccctcacattaagcccgagtggtattttctgtttgcatacgccattcttcgttctattcccaacaaacttggtggtgtcttagccctcttattctctattttagtcctttttctcctcccgttcctccacacctcctatcaacgtgccctaatcttccgacccctcgctaaaatcttcttttgactcctcgtagccaacatacttatcctcacctgaatcggcggacagcccgtcgaagacccctatgttctaatcggccagctaacctcagttagttactttctaatcttcatcttttccatccccgccttaggggtactagttaatta?????????????????????ccactag"/>
+        <sequence id="seq_H_suspec" spec="Sequence" taxon="H_suspec" totalcount="4" value="atgccg??????atacgaaaatatcacccaatcctaaaaattattaataactcctttattgatctcccaacaccctcaaatatctcttcttgatgaaactttgggtccctactaggaatctgcctaatcttacaaattataactggtttatttcttgccatacactatactgctaatgtctcactagcattttcatctattgctcacatttgccataatgtccaatacggatgacttctccgtaatctacactctaacggagcatcaatattcttcctttgcatttacttacacattggacgaggattgtactacggatcttatctatcaaaaaaaacatgatacattggcacaattctactattactaaccatagccacagcattcataggatacgtgcttccctggggccaaatatccttctgaggggcaaccgttatcaccaaccttctttcagctgtcccttatttaggcacaactctagttgagtgaatttgaggcggattctccatcgataatgcaacactcactcgcttcttcaccctccactttctacttcccttcattattatagcagtatctgctgtacatctcttattccttcacgaacaaggatctaataacccaacaggcctctcatcaaacccagacaagattccatttcacccatactattcctataaagatctccttgggattatactcttactcacattactactactattatcaatattctcccccaacctattaggagacccagaaaacttttcaccagcaaacccacttatcacaccaacccatatcaagcccgaatgatattttctttttgcctatgcaattcttcgatcaattcctaacaaactaggaggggttctagcccttttagcttcaattcttatcttgtttattatcccaactcttcacatatcaaaacagcaggctataacttttcgacctccatctcaaattttattttgactaatcatctctgatatcctgattcttacttgaattggagcacaaccagtagaagatccattcatcataattggccaagtcgcatcaatcctttatttcacactctttctcctagcattaccaatcatttcactaatagaaaacaaactattaaattgata?????????????"/>
+        <sequence id="seq_L_agilis" spec="Sequence" taxon="L_agilis" totalcount="4" value="atgacgcttaatttacgaaaacaacaccccatctttaaaatcatcaatgcctcctttattgacctcccaactccatctaacatctctgcttgatgaaactttgggtctctactaggtctatgcctcattattcaaaccattacaggtctcttcttagccatacattacactgcagatatctcctctgcattttcatctgttgcccatattcaccgagatgtacaacatggctgattaattcgtaacctacacgctaacggcgcatccatattctttacctgcatttacctccacattggacgtggactatattatggctcctacatctatactgaaacctgaaacattggaatccttctccttcttatagtgatagccacagctttcataggctatgtattaccttgaggacaaatatccttctgaggagctaccgttattactaatcttctctccgcaataccttacgtaggtacaactcttgttgaatgaatttgaggcgggtttgcaattgacaacgcaaccctcacacgctttttcaccatccattttttgctaccattcatcattataggcacttccatagtccatctcctcttccttcatgaaacaggatcaaacaacccaacaggccttaactccaacacagacaaaatcccgttccacccctactactcatataaagaccttttcggtgccctactcatattaatatgcctcctatctttagccctattcttaccgaaccttttaggcgacccagaaaatttctcacccgcaaaccccctagtaacacccccacacattaaaccagaatgatacttcctttttgcctatgcaatcctccgctctattccaaacaaactaggaggtgttttagccctcttattttcaattctaatcctatttacttccccaatgcttcatctatcaaaacaacgcaccctaacataccgcccactatcccaaatactattttggttacttatctcagatgtcattatcttaacatgaattggaggtcaaccagtagaacacccattcattattattggccaactcgcttccatcctttattttataatttttctcctcttcatacctgccctagctctactagaaaataaacttcttaaatggtaa????????????"/>
+        <sequence id="seq_M_baroni" spec="Sequence" taxon="M_baroni" totalcount="4" value="atggcccccacaattcgaaaatcccaccccctaattaaaatcattaacggttcttttattgatctcccaaccccaactaacttatcctcttgatgaaattttggctcacttttaggcctctgcctaattgcacaaattgtcacaggtttatttcttgctatgcactattcagcagacacatcccttgccttttcatctatagcccacatttgtcgagacgtaaacaatggctgattgcttcgcaaccttcacgctaacggggcatcttttttctttatctgtatttattttcatataggacgaggactttactatggatcatttttattcaaagagacatgaaatatcggagtaatcttactatttctagtcatagctaccgcatttgttggatatgtacttccatgaggacaaatatcattttgaggagcaacagtaattacaaatcttctttcagctgccccctacattggaaacgaccttgtacaatgaatctgaggcggattttctgtagacaacgcaacactaacccgattttttacatttcattttattttaccctttgcaattgctggcgccagcataattcatcttctatttcttcaccaaaccggatcctctaacccaacaggattaaattctaatcttgataaaataccatttcacacttacttttcttataaagatgcttttggttttgtactaatattaggagctctcgcttgtttatctacattctctcccaacctattaggagaccctgacaattttactccagctaatcccctcgttacacccccacatattaaaccagaatgatattttctctttgcttatgccattcttcgttctattccaaacaaacttggcggagtcttagctcttttagcttccattgttattttatttttagcacccactattcatacagccaaacaacgtagccttatatttcgccctctcactaaaattattttttgagccttcattgccaatgcaataattcttacatgaattggaggtcaaccagtagaagacccctatattcttatcggtcaactctcatccggattatatttctcaatcttcctcattgcttgacccctaacaggctttatagaaaataattttcttaagtgaaga????????????"/>
+        <sequence id="seq_M_vittat" spec="Sequence" taxon="M_vittat" totalcount="4" value="atggtc??????atccgaaaaacccaccccttattcaaaattgttaacgacgcattaattgatctccccgccccctcaaacatctccgcatgatgaaacttcggttcattattactactctgcctaataatgcaaatcttaactggcttattcttagccatacattacacctccgacatctccaccgccttctcatctgtagctcacatctgccgagacgtaaactatggctgaatcatccgaaaccttcacgccaacggagcctccttcttcttcatctgcctctacttacacattggacgaggcctttattacggctcatatttatataaagaaacctgaaatattggagttgtattgttccttctagtaataataacagcatttgttggatatgtcctaccttgaggacaaatatcattttgaggcgccacagtaattacaaacctcctatcagcagtcccatatataggagacagcctagttcaatgaatttgaggcgggttttctgtagacaatgcaacactcacacgattcttcgcattccacttcttactccccttcgcagtagtagctgccacactactccacgccctatttctacacgaaaccggatccaacaaccccctaggcctcaactccgacgcagacaaaatctcattccacccatacttttcgtacaaggacctcctcggattcattctactaatcacagccctagcatcactagcactattttcaccaaacctcttaggtgacccagaaaacttcacacctgccaacccattagtcacaccaccacatattaaaccagaatgatactttctatttgcatatgccattctacgctccatccctaataaactaggaggagtgttagcactacttttctctattctagtactaatagtggtaccgctattacacacctctaaacaacaaggactaaccttccgtccaattgcccaatttatgttttgggtactggtagcagacgtcatgattttaacctgaatcgggggaatgccagtcgaacatcctttcatcatcattggccaaattgcctcagtactatacttctcactatttctaattctaaacccactaacaggtctgttagaaaataaaatactaaacttcaact???????????"/>
+        <sequence id="seq_Z_vivipa" spec="Sequence" taxon="Z_vivipa" totalcount="4" value="atgacactaaatatacgaaaacaacaccccatcctcaaaattattaactcctcctttattgacctcccaaccccatcaaatatttcagcttgatgaaattttggatccctcctcggtatttgccttattattcaaatcatcacaggtttatttttagctatacactacaccgcagatatttcttctgcattttcatcagttgctcacattcaccgagatgtacaacatggctgacttatccgcaacctacatgctaatagtgcatccatattcttcatctgcatttatctccacattggacgaggtctttattacggatcctatatttatactgaaacctgaagtatcggagtattattactcctactcgtaatagccacagcttttataggctatgtattgccttgaggacaaatatcattttgaggagccactgttatcaccaacctcctttctgctataccttatttaggtccaactcttgttgaatgagtgtggggagggtttgcagtagataatgcaacccttacccgattctttaccttccacttcatactaccatttattattttaggtgtttccataattcacctactcttcctacacgaaacgggctcaaacaacccaacaggtctaaactctaacacagataaaattccattccacccctattattcttacaaagacctactaggcaccctaataatactagcacttctcatttttttagccctattttctccaaatctattaggagacccagaaaatttcacaccagcaaatcctctaattacccctccccacattaaaccagaatgatatttcctttttgcctacgcaatccttcgttccattccaaataaacttggtggcgttatggctcttctattctcaattttaattctccttgttttaccaataacccacatatcaaaacaacggactatatcttatcgtccaatatctcaagcagtattttgacttctagtttcagacattattatcttaacatgaattgggggtcaaccagtagaacacccatttattattattggccaactagcttccacattatactttacaattttcctcctcctaataccaatagttgccctaatagaaaataaacttcttaaatgataa????????????"/>
+    </data>
+
+    
+
+
+    <map name="Uniform" >beast.math.distributions.Uniform</map>
+    <map name="Exponential" >beast.math.distributions.Exponential</map>
+    <map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+    <map name="Normal" >beast.math.distributions.Normal</map>
+    <map name="Beta" >beast.math.distributions.Beta</map>
+    <map name="Gamma" >beast.math.distributions.Gamma</map>
+    <map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+    <map name="prior" >beast.math.distributions.Prior</map>
+    <map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+    <map name="OneOnX" >beast.math.distributions.OneOnX</map>
+    <run id="mcmc" spec="MCMC" chainLength="100000">
+        <state id="state" spec="State" storeEvery="5000">
+            <tree id="Tree.t:MSA_cytB" spec="beast.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.MSA_cytB" spec="TaxonSet">
+                    <alignment idref="MSA_cytB"/>
+                </taxonset>
+            </tree>
+            <parameter id="birthRate.t:MSA_cytB" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="gammaShape.s:MSA_cytB" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="TIM2ufrates.s:MSA_cytB" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode">1.0 1.0 1.0 1.0</parameter>
+            <parameter id="TIM2uffreqParameter.s:MSA_cytB" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+        </state>
+        <init id="RandomTree.t:MSA_cytB" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:MSA_cytB" taxa="@MSA_cytB">
+            <populationModel id="ConstantPopulation0.t:MSA_cytB" spec="ConstantPopulation">
+                <parameter id="randomPopSize.t:MSA_cytB" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+            </populationModel>
+        </init>
+        <distribution id="posterior" spec="util.CompoundDistribution">
+            <distribution id="prior" spec="util.CompoundDistribution">
+                <distribution id="YuleModel.t:MSA_cytB" spec="beast.evolution.speciation.YuleModel" birthDiffRate="@birthRate.t:MSA_cytB" tree="@Tree.t:MSA_cytB"/>
+                <prior id="YuleBirthRatePrior.t:MSA_cytB" name="distribution" x="@birthRate.t:MSA_cytB">
+                    <Gamma id="Gamma.0" name="distr">
+                        <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="alpha">0.001</parameter>
+                        <parameter id="parameter.hyperGamma-beta-YuleBirthRatePrior.t:MSA_cytB" spec="parameter.RealParameter" estimate="false" name="beta">1000.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="GammaShapePrior.s:MSA_cytB" name="distribution" x="@gammaShape.s:MSA_cytB">
+                    <Exponential id="Exponential.0" name="distr">
+                        <parameter id="RealParameter.0" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
+                    </Exponential>
+                </prior>
+            </distribution>
+            <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+                <distribution id="treeLikelihood.MSA_cytB" spec="ThreadedTreeLikelihood" data="@MSA_cytB" tree="@Tree.t:MSA_cytB">
+                    <siteModel id="SiteModel.s:MSA_cytB" spec="SiteModel" gammaCategoryCount="4" shape="@gammaShape.s:MSA_cytB">
+                        <parameter id="mutationRate.s:MSA_cytB" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                        <parameter id="proportionInvariant.s:MSA_cytB" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                        <substModel id="Standard_TIM2uf.s:MSA_cytB" spec="substmodels.nucleotide.TIM2uf" rates="@TIM2ufrates.s:MSA_cytB">
+                            <frequencies id="TIM2ufFreqs.s:MSA_cytB" spec="Frequencies" frequencies="@TIM2uffreqParameter.s:MSA_cytB"/>
+                        </substModel>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:MSA_cytB" spec="beast.evolution.branchratemodel.StrictClockModel">
+                        <parameter id="clockRate.c:MSA_cytB" spec="parameter.RealParameter" estimate="false" name="clock.rate">1.0</parameter>
+                    </branchRateModel>
+                </distribution>
+            </distribution>
+        </distribution>
+        <operator id="YuleBirthRateScaler.t:MSA_cytB" spec="ScaleOperator" parameter="@birthRate.t:MSA_cytB" weight="3.0"/>
+        <operator id="YuleModelTreeScaler.t:MSA_cytB" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:MSA_cytB" weight="3.0"/>
+        <operator id="YuleModelTreeRootScaler.t:MSA_cytB" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:MSA_cytB" weight="3.0"/>
+        <operator id="YuleModelUniformOperator.t:MSA_cytB" spec="Uniform" tree="@Tree.t:MSA_cytB" weight="30.0"/>
+        <operator id="YuleModelSubtreeSlide.t:MSA_cytB" spec="SubtreeSlide" tree="@Tree.t:MSA_cytB" weight="15.0"/>
+        <operator id="YuleModelNarrow.t:MSA_cytB" spec="Exchange" tree="@Tree.t:MSA_cytB" weight="15.0"/>
+        <operator id="YuleModelWide.t:MSA_cytB" spec="Exchange" isNarrow="false" tree="@Tree.t:MSA_cytB" weight="3.0"/>
+        <operator id="YuleModelWilsonBalding.t:MSA_cytB" spec="WilsonBalding" tree="@Tree.t:MSA_cytB" weight="3.0"/>
+        <operator id="gammaShapeScaler.s:MSA_cytB" spec="ScaleOperator" parameter="@gammaShape.s:MSA_cytB" scaleFactor="0.5" weight="0.1"/>
+        <operator id="TIM2ufRateDeltaExchanger.s:MSA_cytB" spec="DeltaExchangeOperator" delta="0.1" weight="0.1">
+            <parameter idref="TIM2ufrates.s:MSA_cytB"/>
+            <weightvector id="IntegerParameter.1" spec="parameter.IntegerParameter" dimension="4" estimate="false">2 1 2 1</weightvector>
+        </operator>
+        <operator id="TIM2ufFrequenciesExchanger.s:MSA_cytB" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+            <parameter idref="TIM2uffreqParameter.s:MSA_cytB"/>
+        </operator>
+        <logger id="tracelog" spec="Logger" fileName="MSA_cytB.log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+            <log idref="treeLikelihood.MSA_cytB"/>
+            <log id="TreeHeight.t:MSA_cytB" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:MSA_cytB"/>
+            <log idref="YuleModel.t:MSA_cytB"/>
+            <log idref="birthRate.t:MSA_cytB"/>
+            <log idref="gammaShape.s:MSA_cytB"/>
+            <log idref="TIM2uffreqParameter.s:MSA_cytB"/>
+            <log idref="Standard_TIM2uf.s:MSA_cytB"/>
+        </logger>
+        <logger id="screenlog" spec="Logger" logEvery="1000">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+        <logger id="treelog.t:MSA_cytB" spec="Logger" fileName="$(tree).trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:MSA_cytB" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:MSA_cytB"/>
+        </logger>
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+    </run>
+</beast>

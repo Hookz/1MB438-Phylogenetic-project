@@ -1,0 +1,175 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=10 NCHAR=1155;
+ FORMAT DATATYPE=DNA INTERLEAVE MISSING=-;
+[Name: H_marmor         Len:  1155  Check:    0]
+[Name: H_subpun         Len:  1155  Check:    0]
+[Name: M_baroni         Len:  1155  Check:    0]
+[Name: H_suspec         Len:  1155  Check:    0]
+[Name: L_agilis         Len:  1155  Check:    0]
+[Name: Z_vivipa         Len:  1155  Check:    0]
+[Name: A_talpoi         Len:  1155  Check:    0]
+[Name: A_davidi         Len:  1155  Check:    0]
+[Name: E_cirrig         Len:  1155  Check:    0]
+[Name: M_vittat         Len:  1155  Check:    0]
+
+MATRIX
+H_marmor             atggcccacacaatccgcaa atcccatccaattatcaaga ttattaataactcatttatt gacctcccgtccccatcaaa catctccctgttatggaacc
+H_subpun             atggcccctatcatacgaaa aacccatcctgcccttaaaa tcattaataattcttttatt gacctgccatccccttccaa catctcaatgtgatgaaatt
+M_baroni             atggcccccacaattcgaaa atcccaccccctaattaaaa tcattaacggttcttttatt gatctcccaaccccaactaa cttatcctcttgatgaaatt
+H_suspec             atgccg------atacgaaa atatcacccaatcctaaaaa ttattaataactcctttatt gatctcccaacaccctcaaa tatctcttcttgatgaaact
+L_agilis             atgacgcttaatttacgaaa acaacaccccatctttaaaa tcatcaatgcctcctttatt gacctcccaactccatctaa catctctgcttgatgaaact
+Z_vivipa             atgacactaaatatacgaaa acaacaccccatcctcaaaa ttattaactcctcctttatt gacctcccaaccccatcaaa tatttcagcttgatgaaatt
+A_talpoi             atggcccacattatacgaaa aacacatccaataattaaaa ttattaataactcatttatt gatttaccaacgccctcaaa catctcctattgatgaaact
+A_davidi             atgacccacccaacccgaaa aactcatcctctactaaaaa ttattaatagctcatttatt gacctgcccaccccgtcaaa cttaacatcatgatgaaatt
+E_cirrig             atggcccacattatacgcaa aacacacccgctatttaaaa ttattaacaactcttttatt gacctccctgccccatctaa cctatcttacttgtgaaact
+M_vittat             atggtc------atccgaaa aacccaccccttattcaaaa ttgttaacgacgcattaatt gatctccccgccccctcaaa catctccgcatgatgaaact
+
+H_marmor             tcggctcactgctaggactt tgcttaattgttcaaatcgc tacaggcctgttcttagcca tacactacaccgcagacatc tcctcagccttctcatctgt
+H_subpun             tcggctctcttttaggcctc tgcctcatcacccaaattat cacaggcctctttctcgcta tacactatactgccgatacc tcaatagctttttcctccat
+M_baroni             ttggctcacttttaggcctc tgcctaattgcacaaattgt cacaggtttatttcttgcta tgcactattcagcagacaca tcccttgccttttcatctat
+H_suspec             ttgggtccctactaggaatc tgcctaatcttacaaattat aactggtttatttcttgcca tacactatactgctaatgtc tcactagcattttcatctat
+L_agilis             ttgggtctctactaggtcta tgcctcattattcaaaccat tacaggtctcttcttagcca tacattacactgcagatatc tcctctgcattttcatctgt
+Z_vivipa             ttggatccctcctcggtatt tgccttattattcaaatcat cacaggtttatttttagcta tacactacaccgcagatatt tcttctgcattttcatcagt
+A_talpoi             tcggctcactactaggccta tgcctgattacacaaatttt aacaggcttatttttagcta tacattatacagcagataca tcatcagcattttcatctgt
+A_davidi             atggctcactcctaggtata tgtctgaccgtgcaggttgt tacagggttattcctcgcta tacattatacagcagatacc tcttcagcattttcatcagt
+E_cirrig             ttggatcccttttaggagta tgtctaattacacaaatctt aacagggttatttcttgcaa tacactacactgcagatacc acctccgcattctcctctgt
+M_vittat             tcggttcattattactactc tgcctaataatgcaaatctt aactggcttattcttagcca tacattacacctccgacatc tccaccgccttctcatctgt
+
+H_marmor             cgcccacatttgccgcgatg ttaactacggatgacttcta cgtaatgtccacgccaacgg ggcctccttcttttttatct gcatctacctccacattgcc
+H_subpun             tgcccatatttgccgtgacg taaacaatgggtgacttcta cgcaacctccacgctaacgg gggctcattcttcttcatct gcatctattttcacatcggc
+M_baroni             agcccacatttgtcgagacg taaacaatggctgattgctt cgcaaccttcacgctaacgg ggcatcttttttctttatct gtatttattttcatatagga
+H_suspec             tgctcacatttgccataatg tccaatacggatgacttctc cgtaatctacactctaacgg agcatcaatattcttccttt gcatttacttacacattgga
+L_agilis             tgcccatattcaccgagatg tacaacatggctgattaatt cgtaacctacacgctaacgg cgcatccatattctttacct gcatttacctccacattgga
+Z_vivipa             tgctcacattcaccgagatg tacaacatggctgacttatc cgcaacctacatgctaatag tgcatccatattcttcatct gcatttatctccacattgga
+A_talpoi             cgcacatatctgtcgtgatg ttaattacggctgattaata cgaaatattcacgcaaacgg ggcctcattcttctttatct gcatcttccttcacatcggt
+A_davidi             ggcccacatttgccgagatg taaactatggctggcttgtc cgcaacacacatgctaatgg ggcctccttatttttcattt gcctttacttacacatcggg
+E_cirrig             agctcatatttgccgagacg taaattatggttgactagta cgtaatattcataccaacgg agcctctattttctttattt gtatttatcttcatattggc
+M_vittat             agctcacatctgccgagacg taaactatggctgaatcatc cgaaaccttcacgccaacgg agcctccttcttcttcatct gcctctacttacacattgga
+
+H_marmor             cgcggcatttacttcggctc ctttcttttcaaggagacct gaaacattggagttatcctc ctcttacttgtaatagccac agcctttgttggctatgtac
+H_subpun             cgcggaatatactacggctc ctttttattcaaagagacct gaaatatcggagtaatttta ctttttctagtaatagcaac tgcattcgtgggctatgttc
+M_baroni             cgaggactttactatggatc atttttattcaaagagacat gaaatatcggagtaatctta ctatttctagtcatagctac cgcatttgttggatatgtac
+H_suspec             cgaggattgtactacggatc ttatctatcaaaaaaaacat gatacattggcacaattcta ctattactaaccatagccac agcattcataggatacgtgc
+L_agilis             cgtggactatattatggctc ctacatctatactgaaacct gaaacattggaatccttctc cttcttatagtgatagccac agctttcataggctatgtat
+Z_vivipa             cgaggtctttattacggatc ctatatttatactgaaacct gaagtatcggagtattatta ctcctactcgtaatagccac agcttttataggctatgtat
+A_talpoi             cgtggcttatactacgggtc atacatatataaggagacat gaaacatcggggtcatccta ctttttctagttatggcaac agcttttgtaggatatgttc
+A_davidi             cgcggcttatattatggttc atacttatataaagaaacat gaaatattggggtagttctc ctattcttagtaatagcaac ggcttttgttggttatgtcc
+E_cirrig             cgaggcctgtattatggttc atatatatttaaagagacct gaaacattggagttattctt ctgtttctagtaatagcaac agcatttgtaggatatgttc
+M_vittat             cgaggcctttattacggctc atatttatataaagaaacct gaaatattggagttgtattg ttccttctagtaataataac agcatttgttggatatgtcc
+
+H_marmor             ttccatgaggacaaatatca ttctgaggggcaacagtaat cactaaccttctatcagccg caccttacattggtctagac ctcgtcctttgaatctgggg
+H_subpun             ttccctgaggccaaatgtcc ttctgaggtgccaccgtaat caccaaccttctctctgccg caccctacatcggaactgac ctcgtccaatggatctgagg
+M_baroni             ttccatgaggacaaatatca ttttgaggagcaacagtaat tacaaatcttctttcagctg ccccctacattggaaacgac cttgtacaatgaatctgagg
+H_suspec             ttccctggggccaaatatcc ttctgaggggcaaccgttat caccaaccttctttcagctg tcccttatttaggcacaact ctagttgagtgaatttgagg
+L_agilis             taccttgaggacaaatatcc ttctgaggagctaccgttat tactaatcttctctccgcaa taccttacgtaggtacaact cttgttgaatgaatttgagg
+Z_vivipa             tgccttgaggacaaatatca ttttgaggagccactgttat caccaacctcctttctgcta taccttatttaggtccaact cttgttgaatgagtgtgggg
+A_talpoi             tcccatgaggacaaatatca ttctgaggtgcaacagtcat tactaatttactctccgcaa ttccatatataggagacacc cttgtacaatgaatctgagg
+A_davidi             ttccatgaggacaaatatca ttttgaggcgcaacagttat tactaatctactctcagcta tcccatatttaggggaagac cttgtaaaatgagtttgagg
+E_cirrig             tcccatgaggacaaatatca ttctgaggagcaactgttat tacaaatcttttatccgcaa ttccatatttaggagacaca cttgtgcaatgaatttgagg
+M_vittat             taccttgaggacaaatatca ttttgaggcgccacagtaat tacaaacctcctatcagcag tcccatatataggagacagc ctagttcaatgaatttgagg
+
+H_marmor             cggattctcagtagataacg ctaccctcacccggttcttc acattccactttatcctccc atttgccattgccggagtct ccctccttcaccttctcttt
+H_subpun             cggcttctccgttgacaacg ctaccctaacccgtttcttt actttccacttcatcttacc ttttgctattgcaggcgcct ccatccttcaccttctcttc
+M_baroni             cggattttctgtagacaacg caacactaacccgatttttt acatttcattttattttacc ctttgcaattgctggcgcca gcataattcatcttctattt
+H_suspec             cggattctccatcgataatg caacactcactcgcttcttc accctccactttctacttcc cttcattattatagcagtat ctgctgtacatctcttattc
+L_agilis             cgggtttgcaattgacaacg caaccctcacacgctttttc accatccattttttgctacc attcatcattataggcactt ccatagtccatctcctcttc
+Z_vivipa             agggtttgcagtagataatg caacccttacccgattcttt accttccacttcatactacc atttattattttaggtgttt ccataattcacctactcttc
+A_talpoi             gggattctcagttgataaag ccacactaacccgattcttt gcctttcacttcctatttcc atttctaattgccggcataa gcattattcatcttctattt
+A_davidi             tggattttctgttgataaag caacactcacccgattcttt gcatttcattttctcctgcc tttcttaatcataggaataa gtattctccaccttttattc
+E_cirrig             gggcttttcagtagataaag caacactcactcgattcttt gccttccatttcattttacc atttataattgcaggtgcta gcatcatccaccttcttttc
+M_vittat             cgggttttctgtagacaatg caacactcacacgattcttc gcattccacttcttactccc cttcgcagtagtagctgcca cactactccacgccctattt
+
+H_marmor             ttgcaccaatcaggttcttc aaacccaacaggactttcat ctgaaccagacaaagtccca ttccacatttacttctcgtt caaagacattctttgattca
+H_subpun             cttcaccaaaccggctcctc taaccccacaggcctaaact ctaaccccgataaagttccc ttccatacctacttctcata taaagacgccttgggattta
+M_baroni             cttcaccaaaccggatcctc taacccaacaggattaaatt ctaatcttgataaaatacca tttcacacttacttttctta taaagatgcttttggttttg
+H_suspec             cttcacgaacaaggatctaa taacccaacaggcctctcat caaacccagacaagattcca tttcacccatactattccta taaagatctccttgggatta
+L_agilis             cttcatgaaacaggatcaaa caacccaacaggccttaact ccaacacagacaaaatcccg ttccacccctactactcata taaagaccttttcggtgccc
+Z_vivipa             ctacacgaaacgggctcaaa caacccaacaggtctaaact ctaacacagataaaattcca ttccacccctattattctta caaagacctactaggcaccc
+A_talpoi             cttcatgaaacaggatcaaa taacccaaccggaatagcct caaatttagacaaaatttca ttccacccatatttctccta taaagacgctcttggcttct
+A_davidi             gtacatgaaacagggtcaag caatccaacaggaattattt ctaatgtagacaaagttcca ttccacccttatttcctata taaagatgcccttggattta
+E_cirrig             cttcatgaaacaggatcaaa taacccaacaggactcaatt ctaaccccgacaaaattcca ttccacccatattattcctt taaagatcttttaggattta
+M_vittat             ctacacgaaaccggatccaa caaccccctaggcctcaact ccgacgcagacaaaatctca ttccacccatacttttcgta caaggacctcctcggattca
+
+H_marmor             tcatcctactaactgcccta accctagtctccaccataat tcctaacttcctgtcagatc ctgacaatttcacgccagct aacccgttagtcacccctcc
+H_subpun             ttatccttctgtttctcctc acatccctttccacattcgc tcccaacctcctaggagatc ccgacaattttacacccgct aaccccctagttactccccc
+M_baroni             tactaatattaggagctctc gcttgtttatctacattctc tcccaacctattaggagacc ctgacaattttactccagct aatcccctcgttacaccccc
+H_suspec             tactcttactcacattacta ctactattatcaatattctc ccccaacctattaggagacc cagaaaacttttcaccagca aacccacttatcacaccaac
+L_agilis             tactcatattaatatgcctc ctatctttagccctattctt accgaaccttttaggcgacc cagaaaatttctcacccgca aaccccctagtaacaccccc
+Z_vivipa             taataatactagcacttctc atttttttagccctattttc tccaaatctattaggagacc cagaaaatttcacaccagca aatcctctaattacccctcc
+A_talpoi             tacttatatttattttactt atattcttatctctattttc acctaatctcctaggagacc cagaaaactttataccagca aatcctttaattacaccccc
+A_davidi             taattatactaatattttta gtgctgatttcactgctcct cccaaatatacttggagacc cggaaaacttcaccccagct aaccccctcatcacccctcc
+E_cirrig             taataatgctattaacatta atttttatttcgctcttaac acctaaccttttaggagatc cagaaaattttactcctgca aacccactaattacccctcc
+M_vittat             ttctactaatcacagcccta gcatcactagcactattttc accaaacctcttaggtgacc cagaaaacttcacacctgcc aacccattagtcacaccacc
+
+H_marmor             acacattaaacctgagtggt acttcctatttgcctacgcc atccttcgttctatcccaaa taaactaggcggggtcctgg ccctcctatcctccatctta
+H_subpun             tcacattaagcccgagtggt attttctgtttgcatacgcc attcttcgttctattcccaa caaacttggtggtgtcttag ccctcttattctctatttta
+M_baroni             acatattaaaccagaatgat attttctctttgcttatgcc attcttcgttctattccaaa caaacttggcggagtcttag ctcttttagcttccattgtt
+H_suspec             ccatatcaagcccgaatgat attttctttttgcctatgca attcttcgatcaattcctaa caaactaggaggggttctag cccttttagcttcaattctt
+L_agilis             acacattaaaccagaatgat acttcctttttgcctatgca atcctccgctctattccaaa caaactaggaggtgttttag ccctcttattttcaattcta
+Z_vivipa             ccacattaaaccagaatgat atttcctttttgcctacgca atccttcgttccattccaaa taaacttggtggcgttatgg ctcttctattctcaatttta
+A_talpoi             acatattcaaccagaatgat acttcctatttgcctatgcc atcttacgatctattccaaa caaactagggggtgtcatcg cccttctattatcaatcata
+A_davidi             ccatattcaaccagagtggt attttctttttgcctatgca attctccgatcaatcccaaa caaactcggaggcgtcctag ccttaggggcctccattttc
+E_cirrig             tcatatccagccagagtgat attttttatttgcctatgca atcctccgctctattcctaa taaactaggcggagtaatag cattattagcttcaatccta
+M_vittat             acatattaaaccagaatgat actttctatttgcatatgcc attctacgctccatccctaa taaactaggaggagtgttag cactacttttctctattcta
+
+H_marmor             gtccttatacttatccctat tatccacacctcaaaacaac gaaaccttaccttccggcct atctcaaaagttctcttttg atcatttgtcgctaacactt
+H_subpun             gtcctttttctcctcccgtt cctccacacctcctatcaac gtgccctaatcttccgaccc ctcgctaaaatcttcttttg actcctcgtagccaacatac
+M_baroni             attttatttttagcacccac tattcatacagccaaacaac gtagccttatatttcgccct ctcactaaaattattttttg agccttcattgccaatgcaa
+H_suspec             atcttgtttattatcccaac tcttcacatatcaaaacagc aggctataacttttcgacct ccatctcaaattttattttg actaatcatctctgatatcc
+L_agilis             atcctatttacttccccaat gcttcatctatcaaaacaac gcaccctaacataccgccca ctatcccaaatactattttg gttacttatctcagatgtca
+Z_vivipa             attctccttgttttaccaat aacccacatatcaaaacaac ggactatatcttatcgtcca atatctcaagcagtattttg acttctagtttcagacatta
+A_talpoi             attctaatattaatcccaat acttcacacatctaaacagc gcagtataatatttcgccct ttaacacaaattatattttg aacattagtagccaatacta
+A_davidi             attttaatcctaatacccct tcttcatacatcaaaacaac ggggtttaatattccgacca atcacacaaataatattttg ggcccttgtatcaaacaccc
+E_cirrig             atcttaatgattattccagt ccttcacacctctaaacacc gaagcctattatttcgacca ttaacacaaattatgttttg attacttattgctaatacat
+M_vittat             gtactaatagtggtaccgct attacacacctctaaacaac aaggactaaccttccgtcca attgcccaatttatgttttg ggtactggtagcagacgtca
+
+H_marmor             tcgtcctcacctgaattggg ggccaaccagtagaagaccc attcattacaatcggacaaa tcgcctccgtcttattcttt ctcatcctcatcattttaat
+H_subpun             ttatcctcacctgaatcggc ggacagcccgtcgaagaccc ctatgttctaatcggccagc taacctcagttagttacttt ctaatcttcatcttttccat
+M_baroni             taattcttacatgaattgga ggtcaaccagtagaagaccc ctatattcttatcggtcaac tctcatccggattatatttc tcaatcttcctcattgcttg
+H_suspec             tgattcttacttgaattgga gcacaaccagtagaagatcc attcatcataattggccaag tcgcatcaatcctttatttc acactctttctcctagcatt
+L_agilis             ttatcttaacatgaattgga ggtcaaccagtagaacaccc attcattattattggccaac tcgcttccatcctttatttt ataatttttctcctcttcat
+Z_vivipa             ttatcttaacatgaattggg ggtcaaccagtagaacaccc atttattattattggccaac tagcttccacattatacttt acaattttcctcctcctaat
+A_talpoi             ttattttaacatgaattggc ggacaaccagtagaaccacc atttattgaaatcggacaag tttcctccattatatacttc tcattatttattgtcattat
+A_davidi             taatcctaacatgaattgga ggacaaccagttgacccacc attcattgaaatcggacaga ttgcatccatcctgtatttc tccctgtttaccatcatctt
+E_cirrig             taattcttacctgaattggg gggcaaccagtagaaccacc atttattgaaattggacaaa tgttttcagtattatatttt atattatttttaaccatctt
+M_vittat             tgattttaacctgaatcggg ggaatgccagtcgaacatcc tttcatcatcattggccaaa ttgcctcagtactatacttc tcactatttctaattctaaa
+
+H_marmor             cccaactctcagcaatttag agaacaaaattctctgaaaa ggtcgcacacactaa
+H_subpun             ccccgccttaggggtactag ttaatta------------- --------ccactag
+M_baroni             acccctaacaggctttatag aaaataattttcttaagtga aga------------
+H_suspec             accaatcatttcactaatag aaaacaaactattaaattga ta-------------
+L_agilis             acctgccctagctctactag aaaataaacttcttaaatgg taa------------
+Z_vivipa             accaatagttgccctaatag aaaataaacttcttaaatga taa------------
+A_talpoi             tcctgccattggaatttttg aaaataaattaataaaatga t--------------
+A_davidi             tccccttacagggcgaattg aaaacctgcttttaaaatgg t--------------
+E_cirrig             tcctacaactagcataattg aaaataaattaataaaatga taa------------
+M_vittat             cccactaacaggtctgttag aaaataaaatactaaacttc aact-----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+END;
